@@ -136,7 +136,7 @@ header nav {
   width: 100%;
 }
 header h1 {
-  padding-left: 45%;
+  padding-left: 38%;
   background-color: #F6F6F6;
 }
 @media (max-width: 500px) {
@@ -279,6 +279,7 @@ footer {
   border-radius: 10px;
   padding-top: 5px;
   width: 140px;
+  text-align: center;
   height: 50px;
   font-size: 2.5rem;
 }
@@ -298,37 +299,41 @@ footer {
   border-radius: 10px;
 }
 @media (max-width: 500px) {
-  .walk {
+  .home .walk {
     display: flex;
     justify-content: center;
     align-items: none;
     flex-direction: column-reverse;
     width: 100%;
+    margin-top: 0;
+    padding: 0;
   }
-  .img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  .walk-text {
+  .home .walk .walk-text {
     width: 100%;
   }
-  .walk-img {
-    width: 100%;
-  }
-  .btn {
+  .home .walk .walk-text .btn {
     background: #23293B;
     color: #F6F7F8;
     border-radius: 10px;
     padding-top: 5px;
-    width: 140px;
+    width: 100%;
+    text-align: center;
     height: 50px;
     font-size: 2.5rem;
   }
-  .btn:hover {
+  .home .walk .walk-text .btn:hover {
     color: #23293B;
     background-color: #F6F7F8;
     cursor: pointer;
     transition-duration: 0.4s;
+  }
+  .home .walk .walk-img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .home .walk .img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
 }
