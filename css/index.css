@@ -140,7 +140,7 @@ header h1 {
   background-color: #F6F6F6;
 }
 @media (max-width: 500px) {
-  header {
+  header h1 {
     padding-left: 25%;
     background-color: #F6F6F6;
   }
@@ -274,6 +274,19 @@ footer {
   font-size: 1.9rem;
   background-color: black;
   width: 100px;
+  background: #23293B;
+  color: #F6F7F8;
+  border-radius: 10px;
+  padding-top: 5px;
+  width: 140px;
+  height: 50px;
+  font-size: 2.5rem;
+}
+.home .walk .walk-text .btn:hover {
+  color: #23293B;
+  background-color: #F6F7F8;
+  cursor: pointer;
+  transition-duration: 0.4s;
 }
 .home .walk .walk-img {
   width: 46%;
@@ -304,12 +317,18 @@ footer {
     width: 100%;
   }
   .btn {
-    border-radius: 5px;
-    border: 1px solid black;
-    padding: 15px;
-    color: white;
-    font-size: 1.9rem;
-    background-color: black;
-    width: 100%;
+    background: #23293B;
+    color: #F6F7F8;
+    border-radius: 10px;
+    padding-top: 5px;
+    width: 140px;
+    height: 50px;
+    font-size: 2.5rem;
+  }
+  .btn:hover {
+    color: #23293B;
+    background-color: #F6F7F8;
+    cursor: pointer;
+    transition-duration: 0.4s;
   }
 }
