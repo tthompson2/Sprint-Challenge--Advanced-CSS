@@ -133,8 +133,13 @@ header nav {
   align-items: center;
   padding-bottom: 1%;
   text-align: center;
+  width: 100%;
 }
-header nav a {
+header h1 {
+  padding-left: 25%;
+  background-color: #F6F6F6;
+}
+header a {
   justify-content: space-evenly;
   padding-right: 25px;
   text-decoration: none;
@@ -159,6 +164,9 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
+}
+h1 {
+  font-size: 3.2rem;
 }
 h2 {
   font-size: 3.2rem;
@@ -194,6 +202,10 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .apply-to-img {
+  width: 100%;
+  border-radius: 5px;
 }
 .home .space-images {
   display: flex;
@@ -272,6 +284,10 @@ footer {
     justify-content: center;
     align-items: none;
     flex-direction: column-reverse;
+    width: 100%;
+  }
+  .walk-text {
+    width: 100%;
   }
   .walk-img {
     width: 100%;
@@ -279,7 +295,7 @@ footer {
   .btn {
     border-radius: 5px;
     border: 1px solid black;
-    padding: 15px;
+    padding: 50%;
     color: white;
     font-size: 1.9rem;
     background-color: black;
