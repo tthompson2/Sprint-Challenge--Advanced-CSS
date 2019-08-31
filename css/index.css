@@ -286,6 +286,11 @@ footer {
     flex-direction: column-reverse;
     width: 100%;
   }
+  .img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
   .walk-text {
     width: 100%;
   }
