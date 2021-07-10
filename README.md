@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+ An adaptive website is a website that is coded using set pixel widths. A fully responsibe website is one that is designed to use mediau queries, and use percentages when setting the width and height of different HTML elements on a page.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+A mobile first design is one where you will build the mobile version of the website before you build the tablet or desktop version of the website. This is done by using a min-width value when creating the different media queries that you will use for the site. On a destop view you will use max-width media queries when you are creating and stytling HTML content on your page.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+The font-size 62.5 in the html tag is used to set the default font size from 16 to 10. This is done, so that when you are using rem units what you are doing is that you are mutltiplying a base ten number by different values to use in tandem with your rem units. For example, this would mean that 1.2rem can be calculated by mutitplying 1.2 by 10, and the same would be true for all of the different rem values that you could set for it.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is the transformation of another language like LESS or SASS to CSS. It's like translating a written work. Once the code is fully written in LESS/SASS the compiler (who behaves like a translator) turns the language into CSS, which can be used by the browser to style the content.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorit concept in preprocessing is the variables. The variables make LESS/CSS a lot more similiar to traditional programming languagues, which makes it easier for me to develop, and refactor code because I don't have to change so many different things at all once. The concept that gives me the most trouble is mixins. This is because mixins can have parameters, and are supposed to be used to substitute different blocks of code for what aumounts to a function call. I struggle with it because I'm not exactly sure which pieces of content are supposed to be transformed into mixins, and which should be left as standard CSS. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
